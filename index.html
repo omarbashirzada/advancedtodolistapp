@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="icon" type="image/x-icon" href="./img/icons8-to-do-64.png"> -->
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="base_part">
+        <div class="container custom_cont">
+            <div class="base_part_header"></div>
+            <div class="main_title">To-Do List</div>
+            <div class="icon_of_sort">
+                <img id="sort-button" class="custom_sort_icon" src="./assets/image/blackdown.svg" alt="sort_icon" />
+                <div class="drop_area">
+                    <img class="trash" src="./assets/image/bin.jpg" alt="bin_icon">
+                </div>
+            </div>
+            <form id="custom_submit">
+                <div class="todo_tasks_area">
+                    <input type="text" class="user_ipt_area">
+                </div>
+                <ul id="tasks_main_area" class="vast_todo_list"></ul>
+                <button id="add_btn" type="submit" class="btn_all"> <span class="custom_plus">+</span>
+                    <p class="btn_add">Əlavə et</p>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

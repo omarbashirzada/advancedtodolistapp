@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+body {
+    border-radius: 50%;
+}
+
+.base_part {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+/* headr_part -header hisse*/
+.container.custom_cont {
+    background-color: white;
+    width: 340px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    left: 408px;
+    top: 232px;
+}
+
+.base_part_header {
+    background-color: #FFDC40;   
+    border-radius: 50%;
+    width: 340px;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.main_title {
+    font-style: normal;
+    width: 100%;
+    height: 20px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 17px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+  
+}
+/* icon_for_sort */
+.icon_of_sort {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    height: 40px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.custom_sort_icon {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 15px;
+    text-align: end;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.custom_sort_icon:hover {
+    opacity: 1;
+}
+
+.todo_tasks_area{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 3px;
+    padding-left:5px;
+}
+.user_ipt_area{
+    outline-style: none;
+    border-style: none;
+    width: 220px;
+    margin-top: 11px;
+    margin-left: 0px;
+    padding-bottom: 12px;
+
+}
+.todo_tasks_area:hover{
+    border-color: #C4C4C4;
+}
+.vast_todo_list {
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+}
+
+
+li {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    list-style: none;
+    width: 286px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.imgx{
+    border-radius: 10px;
+    transition: 0.7s;
+    position: absolute;
+    right: 640px;
+}
+
+
+.imgx:hover {
+    background-color: #833AE0;
+}
+
+
+.btn_all {
+    margin: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    border: 20px;
+    background-color: #833AE0;
+    border-radius: 50px;
+    transition: all 0.7s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn_all:hover {
+    background-color: #833AE0;
+    width: 50%;
+}
+
+.custom_plus {
+    background-color: #9953F1;
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 80px;
+    width: 5%;
+    margin-left: -5px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.btn_add {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+}
+
+.trash{
+    width: 15px;
+}
+
+.drop_area{ 
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+@media (max-width: 830px) {
+  .imgx {
+    position: absolute;
+    right: 85px;
+  }
+}
